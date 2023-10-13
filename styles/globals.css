@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-[1200px] mx-auto px-5 md:px-12;
+}
+
+button:focus,
+input:focus,
+text-area:focus {
+  outline: none;
+}
