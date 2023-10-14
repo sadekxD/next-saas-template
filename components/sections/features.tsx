@@ -29,7 +29,7 @@ export default function Features() {
           heading="Why Choose OptiFlow?"
           subheading="Discover the Benefits of Our Powerful Software"
         />
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-12 md:py-16">
           {data.map((item, _) => (
             <FeatureCard key={_} {...item} />
           ))}

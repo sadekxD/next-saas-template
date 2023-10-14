@@ -4,8 +4,8 @@ import SubscribeForm from "../form/subscribe-form";
 export default function Subscribe() {
   return (
     <section className="py-24">
-      <div className="container flex flex-col items-center gap-5">
-        <h1 className="text-[32px] text-primary font-semibold">
+      <div className="container flex flex-col items-center gap-5 text-center">
+        <h1 className="text-2xl md:text-[32px] text-primary font-semibold">
           Subscribe to our weekly newsletter
         </h1>
         <SubscribeForm />

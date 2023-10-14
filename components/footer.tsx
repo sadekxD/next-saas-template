@@ -4,11 +4,11 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t py-12">
       <div className="container">
-        <div className="grid grid-cols-5">
+        <div className="grid gap-8 md:gap-0 md:grid-cols-5">
           <div className="col-span-2">
             <Icons.logo width="26" height="26" />
           </div>
-          <div className="col-span-3 flex justify-between">
+          <div className="col-span-3 grid grid-cols-2 md:grid-cols-4 gap-4">
             <ul className="flex flex-col gap-2">
               <li className="font-medium text-ghost">Products</li>
               <li>

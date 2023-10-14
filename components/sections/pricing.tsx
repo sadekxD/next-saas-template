@@ -44,7 +44,7 @@ export default function Pricing() {
           heading="Flexible Pricing to Fit Your Needs"
           subheading="Choose the Plan That Suits You Best"
         />
-        <div className="py-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-12 md:py-16">
           {data.map((item, _) => (
             <PricingCard key={_} {...item} />
           ))}

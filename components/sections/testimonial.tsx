@@ -13,34 +13,19 @@ export default function Testimonial() {
           heading="What Our Customers Are Saying"
           subheading="See Why WorkFlowPro Is Trusted by Businesses Worldwide"
         />
-        <div className="pt-16 pb-6 flex items-center flex-wrap gap-6">
+        <Slider>
           <TestimonialCard />
           <TestimonialCard />
           <TestimonialCard />
-        </div>
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+        </Slider>
       </div>
-      {/* <Slider>
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-        <TestimonialCard />
-      </Slider> */}
-      {/* <div className="container">
-        <div className="flex justify-end gap-6">
-          <button className="p-2.5 rounded-full bg-white border">
-            <Icons.arrowLeft />
-          </button>
-          <button className="p-2.5 rounded-full bg-white border">
-            <Icons.arrowRight />
-          </button>
-        </div>
-      </div> */}
     </section>
   );
 }

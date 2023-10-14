@@ -3,12 +3,12 @@ import { Companies } from "../icons";
 
 export default function TestimonialCard() {
   return (
-    <div className="flex-1 max-w-[384px] w-full border rounded-3xl bg-white p-6 flex flex-col gap-12">
+    <div className="flex-1 max-w-[384px] mx-auto border rounded-3xl bg-white p-6 flex flex-col gap-8 md:gap-12">
       <div>
         <Companies.google />
       </div>
       <div>
-        <p className="text-lg font-medium leading-[32px] text-primary">
+        <p className="md:text-lg font-medium md:leading-[32px] text-primary">
           I have been using them for a year now. Everything is detailed and well
           organized and, of course, damn beautiful.
         </p>
