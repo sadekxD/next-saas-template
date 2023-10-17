@@ -11,6 +11,7 @@ export default function Nav() {
         "
         >
           <Icons.logo width="26" height="26" />
+          <span className="text-sm font-bold text-gray-700">OptiFlow</span>
         </Link>
 
         <div className="flex md:order-2">

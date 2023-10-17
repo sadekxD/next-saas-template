@@ -1,18 +1,22 @@
 import FeatureCard from "../cards/feature-card";
 import SectionTop from "../section-top";
+import { FeaturesIcons } from "../icons";
 
 const data = [
   {
+    icon: <FeaturesIcons.task />,
     title: "Task Management",
     description:
       "Effortlessly manage tasks, set deadlines, and collaborate in real-time with team members.",
   },
   {
+    icon: <FeaturesIcons.document />,
     title: "Document Collaboration",
     description:
       "Securely share, edit, and collaborate on documents with version control and direct feedback.",
   },
   {
+    icon: <FeaturesIcons.analytics />,
     title: "Analytics Dashboard",
     description:
       "Gain productivity insights, track progress with visual data, and optimize workflows effectively.",
